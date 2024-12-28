@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <center>
+        <form action="">
+            <table bgcolor="pink" border="1" width="80%" height="15">
+               <tr>
+                <th>Name:</th>
+                <td> <input type="text" placeholder="Enter your name" size="60"></td>
+               </tr>
+               <tr>
+                <th>Email:</th>
+                <td><input type="email" placeholder="Enter your Email" size="60"></td>
+               </tr>
+               <tr>
+                <th>Passwod:</th>
+                <td><input type="password" maxlength="8" placeholder="Enter yout Password" size="20"></td>
+               </tr>
+               <tr>
+                <td><b>Approval Required:</b><br>Click on the button or text to <br>check/uncheck</td>
+                <td><label><input type="checkbox">Do you approve?</label></td>
+               </tr>
+               <tr>
+                <td><b>Pick Your Favorite:</b><br>Click on the button ot text to <br>select.</td>
+                <td>
+                    <label>
+                        <p><input type="radio" name="Choise">Choice A</p>
+                        <p><input type="radio" name="Choise">Choice B</p>
+                        <p><input type="radio" name="Choise">Choice C</p>
+                    </label>
+                </td>
+               </tr>
+               <tr>
+                <th>Popup Menu:</th>
+                <td>
+                    <select>
+                        <option value="" disabled>Select your Dish</option>
+                        <option value="dall">Dall Chinna</option>
+                        <option value="sb">Dall Mash</option>
+                        <option value="ss">Dall Mong</option>
+                    </select>
+                </td>
+               </tr>
+               <tr>
+                <td><b>List:</b><br>Setup Options: <br><ul><li>Number of rows to display</li><li>Allow Multi-Select</li></ul></td>
+                <td>
+                    <select multiple>
+                        <option value="">Chiken Biryani</option>
+                        <option value="">Choola Biryani</option>
+                        <option value="">Raeta</option>
+                        <option value="">Pallow</option>
+                        <option value="">Chiken Biryani</option>
+                        <option value="">Choola Biryani</option>
+                        <option value="">Raeta</option>
+                        <option value="">Pallow</option>
+                    </select>
+                </td>
+               </tr>
+               <tr>
+                <th>Field Ignored by KM</th>
+                <td><input type="text" 20></td>
+               </tr>
+               <tr>
+                <th>Text Area</th>
+                <td><textarea cols="53" rows="4">now is the time for all good men to come to the aid of their country</textarea></td>
+               </tr>
+               <tr>
+                <td colspan="2">
+                    <button style="background-color: blue;">Save</button><button style="border: 0cap;">Cancel</button>  <button>Resize</button>
+                </td>
+               </tr>
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
